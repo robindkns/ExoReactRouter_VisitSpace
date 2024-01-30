@@ -1,0 +1,3 @@
+[0129/135041.168:ERROR:registration_protocol_win.cc(136)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0129/140330.338:ERROR:registration_protocol_win.cc(136)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0130/085751.485:ERROR:registration_protocol_win.cc(136)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)

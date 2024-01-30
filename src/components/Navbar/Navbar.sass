@@ -1,0 +1,63 @@
+.navbar
+    width: 100vw
+    height: 100px
+    display: flex
+    align-items: center
+    margin: 0
+    margin-top: 3%
+
+.navbar_logo
+    background-color: white
+    width: 30%
+    border-radius: 50%
+
+.navLine
+    width: 25%
+    height: 2px
+    background-color: white
+
+.navLinks
+    width: 65%
+    backdrop-filter: blur(5px)
+    background-color: #ffffff17
+    height: 100%
+    margin-left: 5%
+    display: flex
+    align-items: center
+    font-size: 20px
+    justify-content: center
+    gap: 10%
+
+.navLink
+    color: white
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    text-decoration: none
+    position: relative
+    &::before
+        content: ''
+        width: 0%
+        height: 2px
+        background-color: white
+        transition: 0.5s
+        position: absolute
+        bottom: 0
+    &:hover
+        &::before
+            width: 100%
+.logoContainer
+    width: 10%
+    display: flex
+    justify-content: center
+
+.active
+    &::before
+        content: ''
+        height: 2px
+        background-color: white
+        transition: 0.3s
+        position: absolute
+        bottom: 0
+        width: 100%
